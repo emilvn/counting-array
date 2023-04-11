@@ -7,7 +7,7 @@ function main() {
     setInterval(() => {
         count++;
         arr.unshift(count);
-        arr.length = 10;
+        arr.length = 9;
         console.log(arr);
     }, 1000);
 }
